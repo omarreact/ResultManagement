@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asstes/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="result">
+        <h1 class="heading">PUT YOUR SUBJECT NUMBRER AND INFORMETION</h1>
+        <hr>
+        <div class="input-result">
+            <form id="resform" action="">
+                <table>
+                    <!-- ADD YOUR INFORMETION -->
+                    <th>
+                        <h2>ADD YOUR INFORMETION</h2>
+                    </th>
+                    
+                    <tr>
+                        <td>Roll No</td>
+                        <td><input id="roll" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Exam Name</td>
+                        <td><input id="exam" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Name of Student</td>
+                        <td><input id="stname" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name</td>
+                        <td><input id="fname" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Name</td>
+                        <td><input id="mname" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Name of Institute</td>
+                        <td><input id="school" type="text"></td>
+                    </tr>
+
+
+                    <!-- ADD YOUR NUMBER -->
+                    <th>
+                        <hr>
+                        <h2>ADD YOUR NUMBER</h2>
+                    </th>
+
+                    <tr>
+                        <td>Subject</td>
+                        <td>Number</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bangla</td>
+                        <td><input id="ban" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>English</td>
+                        <td><input id="eng" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mathmatic</td>
+                        <td><input id="math" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Social</td>
+                        <td><input id="soc" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>scince</td>
+                        <td><input id="sci" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Religion</td>
+                        <td><input id="isl" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input  type="submit" value="Result"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+
+
+
+        <div class="output-result">
+
+            <img src="asstes/img/lo.gif" alt="">
+            <div class="data-table">
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Roll No</td>
+                            <td id="resroll"></td>
+                        </tr>
+                        <tr>
+                            <td>Name of Student</td>
+                            <td id="ressutdnm"></td>
+                        </tr>
+                        <tr>
+                            <td>Father's Name</td>
+                            <td id="resfname"></td>
+                        </tr>
+                        <tr>
+                            <td>Mother's Name</td>
+                            <td id="resmname"></td>
+                        </tr>
+                        <tr>
+                            <td>Name of Institute</td>
+                            <td id="resschool"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Number</th>
+                            <th>GPA</th>
+                            <th>Grad</th>
+                            <th>CGPA</th>
+                            <th>Grad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bangla</td>
+                            <td id="bannum">90</td>
+                            <td id="bangpa">3.8</td>
+                            <td id="bangrad">A</td>
+                            <td id="cgpa" rowspan="6">4.99</td>
+                            <td id="grad" rowspan="6">A+</td>
+                        </tr>
+
+                        <tr>
+                            <td>English</td>
+                            <td id="engnum">90</td>
+                            <td id="enggpa">3.8</td>
+                            <td id="enggrad">A</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Mathmatic</td>
+                            <td id="mathnum">90</td>
+                            <td id="mathgpa">3.8</td>
+                            <td id="mathgrad">A</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Social</td>
+                            <td id="socnum">90</td>
+                            <td id="socgpa">3.8</td>
+                            <td id="socgrad">A</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>scince</td>
+                            <td id="scinum">90</td>
+                            <td id="scigpa">3.8</td>
+                            <td id="scigrad">A</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Religion</td>
+                            <td id="islnum">90</td>
+                            <td id="islgpa">3.8</td>
+                            <td id="islgrad">A</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <a href="#" class="showpdf">Print this page</a>
+        </div>
+    </div>
+    <script src="asstes/js/script.js"></script>
+    
+</body>
+</html>
